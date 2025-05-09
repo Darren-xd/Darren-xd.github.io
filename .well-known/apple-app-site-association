@@ -1,23 +1,15 @@
 {
   "applinks": {
-      "details": [
-           {
-             "appIDs": [ "SA59F8XJ32.com.aikike.flutterTickets" ],
-             "components": [
-               {
-                  "/": "/ticket_details/*",
-                  "comment": ""
-               },
-               {
-                  "/": "/details/*",
-                  "comment": ""
-               },
-               {
-                  "/": "/buy/*",
-                  "comment": "Matches any URL with a path that starts with /help/website/ and instructs the system not to open it as a universal link."
-               }
-             ]
-           }
-       ]
-   }
+    "apps": [],
+    "details": [
+      {
+        "appID": "SA59F8XJ32.com.aikike.flutterTickets",
+        "paths": [
+          "/ticket_details/*",
+          "/details/*",
+          "/buy/*"
+        ]
+      }
+    ]
+  }
 }
