@@ -1,0 +1,15 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "SA59F8XJ32.com.aikike.flutterTickets" ],
+             "components": [
+               {
+                  "/": "/ticket_details/*",
+                  "comment": ""
+               }
+             ]
+           }
+       ]
+   }
+}
