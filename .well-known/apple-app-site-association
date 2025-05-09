@@ -5,8 +5,12 @@
              "appIDs": [ "SA59F8XJ32.com.aikike.flutterTickets" ],
              "components": [
                {
-                  "/": "/details/*",
+                  "/": "/ticket_details/*",
                   "comment": ""
+               },
+               {
+                  "/": "/buy/*",
+                  "comment": "Matches any URL with a path that starts with /help/website/ and instructs the system not to open it as a universal link."
                }
              ]
            }
